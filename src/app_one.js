@@ -21,9 +21,6 @@ AppOne.config(function($stateProvider, $urlRouterProvider) {
       url: "/Cat",
       templateUrl: "src/Cat.html"
 	  })
-	
-	
-	
 });
 
 AppOne.directive('ptrngName',function()
