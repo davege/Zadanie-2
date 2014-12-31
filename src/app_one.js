@@ -1,7 +1,7 @@
 AppOne = angular.module('AppOne', ['ui.router']); 
-AppOne.controller('NameController', ['$scope', function($scope){
-$scope.name = 'Dawid'; 
-}]);
+	AppOne.controller('NameController', ['$scope', function($scope){
+	$scope.name = 'Dawid'; 
+	}]);
 
 //zadanie2
 AppOne.config(function($stateProvider, $urlRouterProvider) {
